@@ -23,7 +23,7 @@ Usage
 
 Clone the repository:
 
-git clone https://github.com/your-username/fine-tune-deepseek.git
+git clone https://github.com/SrihariR2004/fine_tune_deep_seek.git
 cd fine-tune-deepseek
 
 Update authentication tokens in train.py.
