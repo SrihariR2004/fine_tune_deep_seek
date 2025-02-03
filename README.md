@@ -24,6 +24,7 @@ Usage
 Clone the repository:
 
 git clone https://github.com/SrihariR2004/fine_tune_deep_seek.git
+
 cd fine-tune-deepseek
 
 Update authentication tokens in train.py.
@@ -39,13 +40,12 @@ Model Deployment
 Once fine-tuned, you can load and use the model for inference:
 
 from transformers import pipeline
+
 model_name = "your_hf_username/DeepSeek-R1"
+
 pipe = pipeline("text-generation", model=model_name)
+
 print(pipe("What are the symptoms of diabetes?"))
-
-License
-
-This project is open-source under the MIT License.
 
 Contributing
 
